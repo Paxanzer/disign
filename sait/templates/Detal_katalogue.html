@@ -1,0 +1,135 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/detal_k2.css' %}">
+</head>
+<body class="base">
+    <div class="top_menu">
+        <div onclick="main()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/menu.png' %}"
+                
+          />
+          </div>
+
+            <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+                <img
+                alt=""
+                class="menu_img"
+                src="{% static 'img/sales.png' %}"
+                s
+              />
+              </div>
+
+              <div onclick="adress()" style="cursor:pointer; display: flex;align-items: center;" class="serch">
+                <p  class="serch_txt">Найти</p>
+           
+              </div>
+
+              <div onclick="adress()" style="cursor:pointer; display: flex;align-items: center;" class="button_serch">
+                 <p class="button_txt">Поиск</p>
+              </div>
+
+              <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+                <img
+                alt=""
+                class="adress_img"
+                src="{% static 'img/adress.png' %}"
+                s
+              />
+              </div>
+
+
+    </div>
+    <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+        <img
+        alt=""
+        class="back"
+        src="{% static 'img/back.png' %}"
+        
+      />
+    </div>
+    <div class="fr_gl">
+        <div class="fr_xz">
+            <p class="title_fr">Лютики</p>
+            <img
+        alt=""
+        class="card_photo"
+        src="{% static 'img/flower1.png' %}"
+        
+      />
+
+      <p class="price">Цена: 500 руб/шт</p>
+      <p class="opis">Лютик — род растений семейства лютиковых. Это многолетние, реже двулетние или однолетние травы с прямостоячими, ползучими или плавающими в воде стеблями (длина до 1,5 м), иногда луковицеобразно утолщёнными в основании. Листья очередные, с цельной или пальчато-раздельной пластинкой. Цветки одиночные или в рыхлых верхушечных соцветиях, чаще золотисто-жёлтые, белые, реже красные, обоеполые, с двойным околоцветником. Лепестков и зелёных чашелистиков обычно по 5. В основании лепестков имеется нектарник.</p>
+
+        </div>
+    </div>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    
+    </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function main() {
+            window.location.replace("http://127.0.0.1:8000/");
+          }
+          function sales() {
+            window.location.replace("http://127.0.0.1:8000/sales");
+          }
+            function katalogue() {
+            window.location.replace("http://127.0.0.1:8000/katalogue");
+          }
+          function card() {
+            window.location.replace("переход на detal view продукта");
+          }
+      </script>
+
+</body>
+</html>

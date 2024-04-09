@@ -1,0 +1,300 @@
+body{
+    margin:0;
+    padding: 0;
+}
+.base
+{
+   /* Auto layout */
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+background: #242D3B;
+position: relative;
+
+height: 1109px; 
+}
+
+.top_menu
+{
+/* Frame 10 */
+
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 482px;
+gap: 12px;
+
+
+height: 64px;
+
+background: #0A1F32;
+border-bottom: 3px solid #BEBFC1;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.menu_img
+{
+/* home_12029993 6 */
+
+width: 68px;
+height: 44px;
+opacity: 1;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.serch
+{/* Frame 17 */
+margin-left: 20px;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 9px 17px;
+gap: 22px;
+
+width: 451px;
+height: 18px;
+
+background: #D9D9D9;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.serch_txt
+{/* Найти */
+
+width: 54px;
+height: 19px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+}
+
+.button_serch
+{/* Frame 15 */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px;
+gap: 10px;
+
+width: 66px;
+height: 18px;
+
+background: #FFFFFF;
+border-radius: 10px;
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+.button_txt
+{/* Поиск */
+
+width: 63px;
+height: 17px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+text-align: center;
+
+color: #000000;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.adress_img
+{
+    /* 9131588 1 */
+
+
+width: 45px;
+height: 46px;
+}
+
+.titleee {
+    width: 286px;
+    height: 112px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+    margin: 0px;
+}
+
+.fr_main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0px 1px;
+    gap: 39px 42px;
+    height: 577px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    align-content: flex-start;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 8px 0px;
+    gap: 8px;
+    /* width: 325px; */
+    /* height: 265px; */
+    background: #0A1F32;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    align-items: center;
+}
+
+.title_card {
+    width: 327px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: auto;
+    justify-content: center;
+}
+
+.detal_card {
+    width: 219px;
+    /* height: 19px; */
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #D2D2D2;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.card_img
+{
+    /* 1656109290_58-mykaleidoscope-ru-p-stilnie-tyulpani-krasivo-foto-62 1 */
+
+width: 325px;
+height: 200px;
+overflow: hidden;
+overflow: hidden;
+object-fit: cover;
+  object-fit: cover;
+/* Inside auto layout 
+flex: none;
+order: 2;
+flex-grow: 0;
+*/
+}
+
+
+.title1{
+/* Лютики */
+
+position: absolute;
+width: 325px;
+height: 59px;
+left: 4px;
+top: 0px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 24px;
+line-height: 29px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.image__card
+{
+    /* 1649733035_85-vsegda-pomnim-com-p-lyutik-tsvetok-sadovii-foto-88 1 */
+
+position: absolute;
+width: 319px;
+height: 161px;
+left: 10px;
+top: 51px;
+
+
+
+}

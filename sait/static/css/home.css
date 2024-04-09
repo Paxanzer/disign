@@ -1,0 +1,342 @@
+/* Desktop - 1 */
+body{
+    margin:0;
+    padding: 0;
+}
+.base
+{
+   /* Auto layout */
+    display: flex;
+    flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 10px;
+background: #242D3B;
+position: relative;
+
+height: 1109px; 
+}
+
+.top_menu
+{
+/* Frame 10 */
+
+box-sizing: border-box;
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 482px;
+gap: 12px;
+
+
+height: 64px;
+
+background: #0A1F32;
+border-bottom: 3px solid #BEBFC1;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.menu_img
+{
+/* home_12029993 6 */
+
+width: 68px;
+height: 44px;
+opacity: 0.6;
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.txt_menu
+{
+/* Главная */
+
+width: 88px;
+height: 28px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+
+.txt_menu2
+{
+/* Главная */
+
+width: 125px;
+height: 28px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+color: rgba(255, 255, 255, 0.6);
+text-decoration: none;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+
+.sales_img
+{
+/* home_12029993 9 */
+
+width: 68px;
+height: 44px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+}
+
+.txt_sales
+{
+/* Акции */
+text-decoration: none;
+width: 68px;
+height: 28px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+flex-grow: 0;
+}
+
+.katalogue_img
+{
+/* home_12029993 7 */
+
+width: 68px;
+height: 44px;
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 4;
+flex-grow: 0;
+}
+
+
+.txt_katalogue
+{
+/* Каталог */
+
+width: 81px;
+height: 28px;
+text-decoration: none;
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 5;
+flex-grow: 0;
+}
+
+
+.logo_fr
+{
+
+
+/* Frame 12 */
+
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+padding: 0px;
+
+width: 352px;
+height: 272px;
+
+margin: 0;
+/* Inside auto layout */
+flex: none;
+order: 2;
+flex-grow: 0;
+
+}
+
+.glav_img
+{
+/* home_12029993 10 */
+
+width: 365px;
+height: 234px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.txt_logo
+{
+/* Лютые тютики */
+
+width: 293px;
+height: 58px;
+
+font-family: sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+
+margin: 0;
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+
+.photo
+{
+/* Безымяннasdasdasый 2 */
+
+/*width: 2035px;
+height: 827px;*/
+
+
+
+/* Inside auto layout */
+flex: none;
+order: 3;
+align-self: stretch;
+flex-grow: 0;
+}
+
+.reg_img
+{
+    /* 9131588 1 */
+
+
+width: 45px;
+height: 46px;
+}
+
+.log_img
+{
+    /* 9131588 1 */
+
+opacity: 0.6;
+width: 45px;
+height: 46px;
+}
+
+
+.txt_logo2 {
+    width: fit-content;
+    height: 58px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.logo_fr2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    width: fit-content;
+    /* width: 352px; */
+    height: 334px;
+    margin: 0;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.txt_logo3 {
+    width: 322px;
+    height: 58px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

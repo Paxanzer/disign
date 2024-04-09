@@ -1,0 +1,197 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/sales2.css' %}">
+    
+</head>
+<body class="base">
+
+    <div class="top_menu">
+      <div onclick="main()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/menu.png' %}"
+            
+          />
+          
+          <a href="#" class="txt_menu">Главная</a>
+          </div>
+          <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+              alt=""
+              class="sales_img"
+              src="{% static 'img/sales.png' %}"
+              
+            />
+            <a class="txt_sales">Акции</a>
+          </div>
+
+          <script>
+            function main() {
+                window.location.replace("http://127.0.0.1:8000/");
+              }
+              function sales() {
+                window.location.replace("http://127.0.0.1:8000/sales");
+              }
+                function katalogue() {
+                window.location.replace("http://127.0.0.1:8000/katalogue");
+              }
+          </script>
+
+          <div onclick="katalogue()" style="cursor:psointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/katalogue.png' %}"
+            
+          />
+          <a href="#" class="txt_katalogue">Каталог</a>
+        </div>
+        
+    </div>
+
+    <div class="logo_fr" style="
+    display: flex;
+    flex-direction: row;">
+        <img
+            alt=""
+            class="adress_img"
+            src="{% static 'img/adress.png' %}"
+            
+          />
+        <p class="adress_txt">Парашютная ул., 1, село Рышково</p>
+    
+    </div>
+    <div class="glav_vr">
+        <img
+            alt=""
+            style="
+    height: 264px;"
+            class="sales_img1"
+            src="{% static 'img/sales_img.png' %}"
+            
+          />
+          <div class="pod_fr">
+            <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div>
+
+            <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div> <! - - карточки -->
+            <div class="card" style="cursor:pointer;" onclick="card()">
+                <p class="title_card">Скидка 20% на тюльпаны от 2 штукdsd</p>
+                <p class="detal_card">Действует до 30 февраля</p>
+                <img
+                alt=""
+                class="card_img"
+                src="{% static 'img/bomj.jpg' %}"
+                
+              />
+              <a class="go1" href="#">перейти</a>
+            </div>
+
+
+
+            <script>
+                function card() {
+                    window.location.replace("http://127.0.0.1:8000/");
+                  }
+
+              </script>
+
+        </div>
+
+
+    
+
+    </div>
+    
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

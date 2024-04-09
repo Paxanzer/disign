@@ -1,0 +1,75 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body class="base">
+
+    <div class="top_menu">
+      <div onclick="main()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/menu.png' %}"
+            
+          />
+          
+          <a href="#" class="txt_menu">Главная</a>
+          </div>
+          <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+              alt=""
+              class="sales_img"
+              src="{% static 'img/sales.png' %}"
+              
+            />
+            <a class="txt_sales">Акции</a>
+          </div>
+
+          <script>
+            function main() {
+                window.location.replace("http://127.0.0.1:8000/");
+              }
+              function sales() {
+                window.location.replace("http://127.0.0.1:8000/sales");
+              }
+                function katalogue() {
+                window.location.replace("http://127.0.0.1:8000/katalogue");
+              }
+          </script>
+
+          <div onclick="katalogue()" style="cursor:psointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="katalogue_img"
+            src="{% static 'img/katalogue.png' %}"
+            
+          />
+          <a href="#" class="txt_katalogue">Каталог</a>
+        </div>
+    </div>
+    <div class="logo_fr" style="
+    display: grid;
+    justify-items: center;
+">
+      <img
+      alt=""
+      class="glav_img"
+      src="{% static 'img/menu.png' %}"
+      
+    />
+    <p class="txt_logo">Лютые Тютики</p>
+    </div>
+
+    <img
+      alt=""
+      class="photo"
+      src="{% static 'img/bg.png' %}"
+      
+    />
+
+</body>
+</html>

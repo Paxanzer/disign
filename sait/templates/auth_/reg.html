@@ -1,0 +1,68 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/reg.css' %}">
+</head>
+<body class="base">
+
+    <div class="top_menu">
+      <div onclick="main()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/menu.png' %}"
+            
+          />
+        </div>
+    </div>
+          <div class="reg_fr">
+            <p class="reg_txt">Регистрация</p>
+            <div class="reg_fr2">
+              <div>
+                <p class="reg_txt2">Придумайте Логин</p>
+
+                <div class="edit_line"></div>
+
+              </div>
+              
+              <div>
+              <p class="reg_txt2">Введите пароль</p>
+
+              <div class="edit_line"></div>
+            </div>
+            
+            <div>
+              <p class="reg_txt2">Повторите пароль</p>
+
+              <div class="edit_line"></div>
+            </div>
+
+            <div class="fr1">
+              <div class="but_fr">
+                <p class="txt" onclick="finish()" style="cursor:pointer;display: flex;align-items: center;justify-content: center;">Далеe</p>
+              </div>
+            </div>
+            
+            </div>
+          </div>         
+         
+          <script>
+            function main() {
+                window.location.replace("http://127.0.0.1:8000/");
+              }
+              function finish() {
+                window.location.replace("http://127.0.0.1:8000/");
+              }
+                
+          </script>
+
+          
+         
+        
+    
+
+</body>
+</html>

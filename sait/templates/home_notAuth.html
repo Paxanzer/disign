@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
+</head>
+<body class="base">
+
+    <div class="top_menu">
+      <div onclick="reg()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="log_img"
+            src="{% static 'img/register.png' %}"
+            
+          />
+          
+          <a href="#" class="txt_menu2">Регистрация</a>
+          </div>
+
+          <div onclick="login()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+              alt=""
+              class="reg_img"
+              src="{% static 'img/login.png' %}"
+              
+            />
+            <a class="txt_sales">Вход</a>
+            
+           
+          </div>
+          <div>
+            <a href="/home" >переход на версию для авторизированных</a>
+          </div>
+          <script>
+            function reg() {
+                window.location.replace("http://127.0.0.1:8000/registration");
+              }
+              function login() {
+                window.location.replace("http://127.0.0.1:8000/login");
+              }
+          </script>
+
+          
+    </div>
+    <div class="logo_fr2" style="
+    display: grid;
+    justify-items: center;
+">
+      <img
+      alt=""
+      class="glav_img"
+      src="{% static 'img/menu.png' %}"
+      
+    />
+    <p class="txt_logo3">Лютые Тютики</p>
+    <p class="txt_logo2">ДЛЯ НАЧАЛА ЗАРИГИСТРИРУЙТЕСЬ</p>
+    
+    </div>
+
+    <img
+      alt=""
+      class="photo"
+      src="{% static 'img/bg.png' %}"
+      
+    />
+
+</body>
+</html>

@@ -1,0 +1,210 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Добро пожаловать</title>
+    <link rel="stylesheet" href="{% static 'css/katalogue2.css' %}">
+</head>
+<body class="base">
+    <div class="top_menu">
+        <div onclick="main()" style="cursor:pointer; display: flex;align-items: center;">
+            <img
+            alt=""
+            class="menu_img"
+            src="{% static 'img/menu.png' %}"
+                
+          />
+          </div>
+
+            <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+                <img
+                alt=""
+                class="menu_img"
+                src="{% static 'img/sales.png' %}"
+                s
+              />
+              </div>
+
+              <div onclick="adress()" style="cursor:pointer; display: flex;align-items: center;" class="serch">
+                <p  class="serch_txt">Найти</p>
+           
+              </div>
+
+              <div onclick="adress()" style="cursor:pointer; display: flex;align-items: center;" class="button_serch">
+                 <p class="button_txt">Поиск</p>
+              </div>
+
+              <div onclick="sales()" style="cursor:pointer; display: flex;align-items: center;">
+                <img
+                alt=""
+                class="adress_img"
+                src="{% static 'img/adress.png' %}"
+                s
+              />
+              </div>
+
+
+    </div>
+    <p class="titleee">Каталог</p>
+    <div class="fr_main">
+     <! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 1</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/bomj.jpg' %}"
+        
+      />
+    </div>
+    <! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">Большой букет роз ко дню святого Валентина</p>
+        <p class="detal_card">10 000 руб. </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower1.png' %}"
+        
+      />
+    </div>
+    <! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div>
+    <! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div>
+    <! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div><! - - карточки -->
+    <div class="card" style="cursor:pointer;" onclick="card()">
+        <p class="title_card">тест название цветка 3</p>
+        <p class="detal_card">Тест цена цветка </p>
+        <img
+        alt=""
+        class="card_img"
+        src="{% static 'img/flower2.png' %}"
+        
+      />
+    </div>
+
+    
+    </div>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        function main() {
+            window.location.replace("http://127.0.0.1:8000/");
+          }
+          function sales() {
+            window.location.replace("http://127.0.0.1:8000/sales");
+          }
+            function katalogue() {
+            window.location.replace("http://127.0.0.1:8000/katalogue");
+          }
+          function card() {
+            window.location.replace("http://127.0.0.1:8000/detal");
+          }
+      </script>
+
+</body>
+</html>
